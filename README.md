@@ -1,4 +1,5 @@
 # QR Code and Password Generator
+![image](https://github.com/user-attachments/assets/43e34746-9b23-418e-945e-9ff07bfabff4)
 
 ## 📑 Descrição
 Projeto que permite gerar QR Codes e senhas via terminal.
