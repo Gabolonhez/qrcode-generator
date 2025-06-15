@@ -4,17 +4,12 @@
 Projeto que permite gerar QR Codes e senhas via terminal.
 
 ## 🎯 Funcionalidades
-- [X] : Gerar QR Codes
-- [X] : Gerar senhas 
+- [X] : Gerar QR Codes;
+- [X] : Gerar senhas.
 
 ## 💻 Tecnologias
-- `React`
+- `Node.js`
 - `Javascript`
-- `API`
-- `HTML`
-- `CSS`
-- `Vite`
-- `Tailwind`
 
 ## 🌐 Link do projeto
 
