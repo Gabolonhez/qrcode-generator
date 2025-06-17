@@ -1,22 +1,20 @@
 # QR Code and Password Generator
-![image](https://github.com/user-attachments/assets/43e34746-9b23-418e-945e-9ff07bfabff4)
+![image](https://github.com/user-attachments/assets/419025f4-baab-4c23-8736-4c869c730c9f)
 
 ## 📑 Descrição
-Projeto que permite gerar QR Codes e senhas via terminal.
+Projeto que permite gerar QR Codes, senhas e criptografar via terminal.
 
 ## 🎯 Funcionalidades
-- [X] : Gerar QR Codes;
+- [X] : Gerar QR Codes.
 - [X] : Gerar senhas.
+- [X] : Criptografar senhas ou textos.
 
 ## 💻 Tecnologias
 - `Node.js`
 - `Javascript`
 
-## 🌐 Link do projeto
-
-https://gerador-curriculos.vercel.app/ 
-
 ## 🛠️ Como abrir e rodar o projeto
 
 1. Run `npm run start`
-2. Run `node src/index.js`
+2. OU
+3. Run `node src/index.js`
