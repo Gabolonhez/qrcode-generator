@@ -1,11 +1,16 @@
-import permittedCharacters from "./utils/permitted-characters.js";
+import allowChars from "./utils/allowed-characters.js";
 
-async function handle() {
-    let characters = [];
+async function handle(options) {
     let password = "";
-    const passwordLength = process.env.PASSWORD_LENGTH;
 
-    characters = await permittedCharacters();
+    const passwordLength = parseInt(options.length);
+    // Renomeando a variável para corresponder à função importada, ou mantendo 'characters' e ajustando a chamada.
+    // Para consistência com o nome da função importada:
+    let characters = await allowChars(options, passwordLength);
+
+    if (typeof characters === "string") {
+        return characters;
+    }
 
     for ( let i = 0; i < passwordLength; i++) {
         const index = Math.floor(Math.random() * characters.length);
