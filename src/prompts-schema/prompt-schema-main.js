@@ -3,10 +3,10 @@ import chalk from 'chalk';
 const promptSchemaMain = [
     {
         name: "select",
-        description: chalk.blue.bold("Escolha a ferramenta (1 - QR Code ou 2 - Password)"),
-        pattern: /^[1-2]+$/,
-        message: chalk.red("Escolha 1 ou 2"),
-        require: true,
+        description: chalk.blue.bold("Escolha a ferramenta para eu gerar (1 - QR Code, 2 - Senha ou 3 - Criptografar)"),
+        pattern: /^[1-3]+$/,
+        message: chalk.red("Escolha 1, 2 ou 3"),
+        required: true,
     }
 ]
 
